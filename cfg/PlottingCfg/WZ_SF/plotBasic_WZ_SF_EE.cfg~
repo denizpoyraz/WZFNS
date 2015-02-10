@@ -1,0 +1,36 @@
+[Input]
+
+InputBaseDirectory    = ../../FlatTrees/WZ/
+
+InputSampleList       = cfg/PlottingCfg/WZ_SF/SampleList_WZ_SF_EE.txt
+
+InputVariableList     = cfg/PlottingCfg/VariablesToPlot.txt
+
+InputCutList          = cfg/PlottingCfg/WZ_SF/LayerCut_WZ_SF.txt
+
+TreeName              = easyDelphes
+
+[Option]
+
+Lumi                = 300
+
+matchingCone        = 0.3
+
+minLeptonCleaningPt = 10
+
+minLeptonCutPt      = 10
+ 
+minJetCutPt         = 30
+
+usePuppiAsDefault   = false
+
+leptonIsoCutMu      = 0.6
+
+leptonIsoCutEl      = 0.55
+
+leptonIsoCutLoose   = 0.75
+
+
+[Output]
+
+outputPlotDirectory = outPlot_WZ_SF_EE

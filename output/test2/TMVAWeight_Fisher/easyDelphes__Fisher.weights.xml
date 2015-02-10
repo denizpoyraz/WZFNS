@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<MethodSetup Method="Fisher::Fisher">
+  <GeneralInfo>
+    <Info name="TMVA Release" value="4.2.0 [262656]"/>
+    <Info name="ROOT Release" value="5.99/06 [353030]"/>
+    <Info name="Creator" value="depoyraz"/>
+    <Info name="Date" value="Tue Feb 10 13:29:14 2015"/>
+    <Info name="Host" value="Linux lxbuild101.cern.ch 2.6.32-131.6.1.el6.x86_64 #1 SMP Wed Jul 13 09:00:34 CEST 2011 x86_64 x86_64 x86_64 GNU/Linux"/>
+    <Info name="Dir" value="/afs/cern.ch/work/d/depoyraz/VBS/TP/ANALYSIS/TestFNS"/>
+    <Info name="Training events" value="51866"/>
+    <Info name="TrainingTime" value="2.78611183e-02"/>
+    <Info name="AnalysisType" value="Classification"/>
+  </GeneralInfo>
+  <Options>
+    <Option name="V" modified="Yes">False</Option>
+    <Option name="VerbosityLevel" modified="No">Default</Option>
+    <Option name="VarTransform" modified="No">None</Option>
+    <Option name="H" modified="Yes">False</Option>
+    <Option name="CreateMVAPdfs" modified="Yes">True</Option>
+    <Option name="IgnoreNegWeightsInTraining" modified="Yes">True</Option>
+    <Option name="Method" modified="Yes">Fisher</Option>
+  </Options>
+  <Variables NVar="2">
+    <Variable VarIndex="0" Expression="detajj" Label="detajj" Title="detajj" Unit="" Internal="detajj" Type="F" Min="2.17854977e-04" Max="8.38695621e+00"/>
+    <Variable VarIndex="1" Expression="ptl1" Label="ptl1" Title="ptl1" Unit="" Internal="ptl1" Type="F" Min="2.78285809e+01" Max="1.87746411e+03"/>
+  </Variables>
+  <Spectators NSpec="1">
+    <Spectator SpecIndex="0" Expression="npu" Label="npu" Title="F" Unit="" Internal="npu" Type="F" Min="9.50000000e+01" Max="1.93000000e+02"/>
+  </Spectators>
+  <Classes NClass="2">
+    <Class Name="Signal" Index="0"/>
+    <Class Name="Background" Index="1"/>
+  </Classes>
+  <Transformations NTransformations="0"/>
+  <MVAPdfs>
+    <PDF Name="Fisher_PDFSig" MinNSmooth="10" MaxNSmooth="10" InterpolMethod="2" KDE_type="1" KDE_iter="1" KDE_border="1" KDE_finefactor="1.0000000000000000e+00">
+      <Histogram Name="Fisher_tr_S_original" NBins="50" XMin="-7.9178392887115479e-01" XMax="6.4102184772491455e-01" HasEquidistantBins="1">
+        0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 1.46206490e-03 0.00000000e+00 1.46206490e-03 1.46206490e-03 0.00000000e+00 4.38619470e-03 7.31032451e-03 1.75447788e-02 3.21654278e-02 4.97102066e-02 1.52054750e-01 3.64054160e-01 8.56770032e-01 1.02490750e+00 9.51804251e-01 9.09404368e-01 8.84549265e-01 9.22562953e-01 1.11994171e+00 1.62435411e+00 2.34369004e+00 2.52352402e+00 2.61709617e+00 2.49135859e+00 2.45042077e+00 2.32322113e+00 2.10975965e+00 1.75740201e+00 1.50738891e+00 1.32901700e+00 1.09070042e+00 9.02094044e-01 7.66122008e-01 5.83363896e-01 3.75750680e-01 2.71944072e-01 2.16385605e-01 1.18427257e-01 8.04135696e-02 6.72549854e-02 2.19309735e-02 1.16965192e-02 8.77238941e-03 2.92412980e-03 
+      </Histogram>
+    </PDF>
+    <PDF Name="Fisher_PDFBkg" MinNSmooth="10" MaxNSmooth="10" InterpolMethod="2" KDE_type="1" KDE_iter="1" KDE_border="1" KDE_finefactor="1.0000000000000000e+00">
+      <Histogram Name="Fisher_tr_B_original" NBins="50" XMin="-7.9178392887115479e-01" XMax="6.4102184772491455e-01" HasEquidistantBins="1">
+        2.49287888e-03 0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 1.24643944e-03 1.24643944e-03 1.24643944e-03 4.98575777e-03 6.23219721e-03 7.47863665e-03 1.86965916e-02 3.49003044e-02 3.86396227e-02 1.27136823e-01 2.19373342e-01 4.31268047e-01 9.98397993e-01 1.74501522e+00 1.93572045e+00 1.92450250e+00 1.59544249e+00 1.67895393e+00 1.76869757e+00 2.16257243e+00 2.71225223e+00 2.97400451e+00 2.78953147e+00 2.45797858e+00 2.02297121e+00 1.75249386e+00 1.33867596e+00 1.06196640e+00 8.10185637e-01 6.40669873e-01 5.11040171e-01 3.60220999e-01 2.31837736e-01 1.64530006e-01 1.22151065e-01 7.60328060e-02 5.85826538e-02 4.48718199e-02 3.24074255e-02 1.86965916e-02 3.73931833e-03 2.49287888e-03 1.24643944e-03 2.49287888e-03 1.24643944e-03 
+      </Histogram>
+    </PDF>
+  </MVAPdfs>
+  <Weights NCoeff="3">
+    <Coefficient Index="0" Value="-2.4092361400343693e-01"/>
+    <Coefficient Index="1" Value="1.0891862005767144e-01"/>
+    <Coefficient Index="2" Value="-3.2233465559405628e-04"/>
+  </Weights>
+</MethodSetup>

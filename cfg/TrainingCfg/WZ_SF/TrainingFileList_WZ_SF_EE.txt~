@@ -1,0 +1,25 @@
+################################################################################################################
+# fileName                                                        reducedVarName    puMin    puMax     MethodList
+################################################################################################################
+output/outTrain_WZ_SF_EE/TMVAoutput_R.root                 Rvar               0       200       R
+#output/outTrain_WZ_SF_EE/TMVAoutput_Asim_j.root            asimj              0       200       Asim_{j}
+#output/outTrain_WZ_SF_EE/TMVAoutput_Asim_l.root            asiml              0       200       Asim_{l}
+#output/outTrain_WZ_SF_EE/TMVAoutput_DeltaPhi_LL.root       deltaphill         0       200       #Delta#phi_{ll}
+#output/outTrain_WZ_SF_EE/TMVAoutput_DeltaPhi_LMet.root     deltaphilmet       0       200       #Delta#phi_{lmet}
+#output/outTrain_WZ_SF_EE/TMVAoutput_DeltaPhi_TLMet.root    deltaphitlmet      0       200       #Delta#phi_{tlmet}
+#output/outTrain_WZ_SF_EE/TMVAoutput_R.root                 Rvar               0       200       R
+#output/outTrain_WZ_SF_EE/TMVAoutput_leadLepZep.root        leadZep            0       200       Zep_{l1}
+#output/outTrain_WZ_SF_EE/TMVAoutput_trailLepZep.root       trailLepZep        0       200       Zep_{l2}
+#output/outTrain_WZ_SF_EE/TMVAoutput_met.root               met                0       200       MET
+#output/outTrain_WZ_SF_EE/TMVAoutput_ptj1.root              ptj1               0       200       p_{T}^{j1}
+#output/outTrain_WZ_SF_EE/TMVAoutput_ptj2.root              ptj2               0       200       p_{T}^{j2}
+#output/outTrain_WZ_SF_EE/TMVAoutput_ptl1.root              ptl1               0       200       p_{T}^{l1}
+#output/outTrain_WZ_SF_EE/TMVAoutput_ptl2.root              ptl2               0       200       p_{T}^{l2}
+#output/outTrain_WZ_SF_EE/TMVAoutput_ptl3.root              ptl3               0       200       p_{T}^{l3}
+#output/outTrain_WZ_SF_EE/TMVAoutput_detajj.root            detajj             0       200       #Delta#eta_{jj}
+#output/outTrain_WZ_SF_EE/TMVAoutput_etaj1etaj2.root        etaj1etaj2         0       200       #eta_{j1}*#eta_{j2}
+#output/outTrain_WZ_SF_EE/TMVAoutput_mjj.root               mjj                0       200       M_{jj}
+#output/outTrain_WZ_SF_EE/TMVAoutput_mll.root               mll                0       200       M_{ll}
+#output/outTrain_WZ_SF_EE/TMVAoutput_mlll.root               mlll                0       200       M_{lll}
+#output/outTrain_WZ_SF_EE/TMVAoutput.root                    MVA                0       200       Likelihood
+#output/outTrain_WZ_SF_EE/TMVAoutput_deta_mjj.root           detajjmjj          0       200       cut:LD:Likelihood:BDT
